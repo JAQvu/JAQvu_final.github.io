@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Tin Mug</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<!-- template for reservation-list -->
+	<script id="reservation-template" type="text/x-handlebars-template">
+		<tr>
+			<td>{{name}}</td>
+			<td>{{day}}</td>
+		</tr>
+	</script>
+
+<section id="hero"
+	<div class="heroText">
+	<h1>Tin Mug</h1>
+</div>
+<div id="reservationForm" class="reservation">
+
+		<!-- reservation form -->
+		<div class=" reservation-form-container">
+			<div class=" text-center reservation-form">
+				<form class="form-inline reservations">
+					<div class="subSectionHeading">Make a Reservation</div>
+				  
+				  <div class="form-group">
+				    <input type="text" class="form-control reservation-name" placeholder="Jane Doe">
+				  </div>
+				  
+				  <div class="form-group">
+						<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+						    Select A Day
+						    <span class="caret"></span>
+						  </button>
+						  
+						  <ul class="dropdown-menu reservation-day">
+						    <li><a>Today</a></li>
+						    <li><a>Tomorrow</a></li>
+						    <li><a>The day after next</a></li>
+						  </ul>
+						</div>
+				  </div>
+				  <button class="btn btn-default reservation-button">Set Reservation</button>
+				</form>
+			</div>
+		</div>
+		</div>
+	
+</section>
+
+<section id="reservation">
+	<div class="subSectionHeading">Existing Reservation</div>
+	<table class="table table-striped  subSectionHeading">
+			
+			<thead>
+				<th>Name</th>
+				<th>Day</th>
+			</thead>
+			<tbody class="reservation-list"></tbody>
+		</table>
+</section>
+
+<section id="dine">
+	<div class="sectionHeading">Come Dine With Us</div>
+
+	<div id="map" class="restaurant-locator">
+	</div>
+	
+</section>
+
+
+<!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- handlebars -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+  <!-- custom js -->
+  <script src="js/main.js"></script>
+
+	<!-- google maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs&callback=initMap"
+  async defer></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto');
+
+html,body{
+    width:100%;
+    overflow-x:hidden;
+    margin:0;
+  }
+
+.heroText{
+
+	padding-top:100px;
+	background-image:url('images/mountains.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height:100%;
+
+}
+
+.bgimage{
+
+}
+
+h1{
+	text-align:center;
+	font-family: 'proxima nova', sans-serif;
+	font-size:60px;
+	margin:0px auto;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	color: #184a5a;
+	font-weight: bolder;
+	border: 4px solid #184a5a;
+	padding: 10px 10px 10px 20px;
+	width:24%;
+
+
+}
+
+.mainImage{
+	width:100%;
+
+}
+
+.sectionHeading{
+	text-align:center;
+	font-family: 'proxima nova', sans-serif;
+	font-size:26px;
+	margin:0px;
+	letter-spacing: .07em;
+	text-transform: lowercase;
+	font-weight: bolder;
+	padding-bottom:20px;
+	color: #184a5a;
+
+}
+
+.subSectionHeading{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 10px;
+	font-size:12px;
+	margin:0px;
+	color:#4d8394;
+	margin-bottom:30px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	margin-top:40px;
+}
+
+section{
+	padding-bottom:30px;
+}
+#reservation {
+	text-align:center;
+	padding-top:40px;
+
+}
+
+#reservationForm {
+	text-align:center;
+	padding-top:40px;
+
+}
+
+
+.existingReservation {
+	text-align: center;
+}
+
+.existingReservation table{
+	border:2px solid #e7e7e7;
+width:60%;
+margin:0 auto;
+
+text-align:center;
+}
+
+.existingReservation table td, th, thead{
+text-align:center;
+border-collapse:collapse;
+margin:0;
+}
+
+.existingReservation table th{
+	background: #e7e7e7;
+	padding:10px 0 10px 0;
+	border-collapse:collapse;
+	margin:0;
+	width:50%;
+
+}
+
+.existingReservation table thead{
+	border-collapse:collapse;
+	background: #e7e7e7;
+}
+
+#scheduledReservations{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	letter-spacing: .05em;
+	margin-bottom:50px;
+	border-collapse: collapse;
+}
+
+
+.reservation-form-container {
+display: block;
+position: relative;
+	height: 100%;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.reservation-form {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.reservation-button{
+	width: 20%;
+    padding: 1em;
+    margin: 1em;
+    background: #df4c5e;
+    color:#FFFFFF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	font-weight: bold;
+	position: relative;
+}
+
+.reservation-button:hover {
+background: #971227;
+color:#FFFFFF;
+}
+
+#dine{
+	margin-top:30px;
+}
+
+.restaurant-locator {
+	height: 50vh;
+}
